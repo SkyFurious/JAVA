@@ -12,7 +12,7 @@ import java.util.*;
  * \class afficheArgumentSensInverse 
  * \brief Objet chaîne de caractères.
  * 
- * afficheArgumentSensInverse est une petite classe pour afficher en sens Inverse les arguments/
+ * afficheArgumentSensInverse est une petite classe pour afficher en sens Inverse les arguments
  */
 public class afficheArgumentSensInverse
 {
