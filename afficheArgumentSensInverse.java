@@ -31,7 +31,7 @@ public class afficheArgumentSensInverse
         }
         	catch(Exception e)
         	{
-        		System.out.println("Exception : "+e.getMessage());
+        		System.out.println("Exception : " +e.getMessage());
         	}
         }
 }

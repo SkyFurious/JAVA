@@ -27,7 +27,6 @@ public class calculDate {
 		Date maDate = null;
 		// Crée une date avec le format dd/MM/yyyy
 		SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
-
 		try {
 			maDate = simpleDateFormat.parse(args[0]);
 			System.out.println(simpleDateFormat.format(maDate));

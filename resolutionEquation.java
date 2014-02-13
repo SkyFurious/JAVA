@@ -15,6 +15,7 @@ import java.util.*;
  * resolutionEquation est une petite classe pour resoudre une équation de type ax²+bx+c
  */
 class resolutionEquation {
+	
 	public static void main(String args[]) throws Exception {
 		double root, root1, root2;
 		System.out.println("Equation est ax²+bx+c");
