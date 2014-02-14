@@ -24,7 +24,7 @@ class Vector {
 		y = v2;
 		z = v3;
 	}
-
+	// Multiplie le vecteur
 	public Vector(Vector v) {
 		x = v.x;
 		y = v.y;
@@ -49,21 +49,20 @@ class PairVect {
 		vector1 = new Vector(a, b, c);
 		vector2 = new Vector(d, e, f);
 	}
-
+	// Instancie 2 vector
 	public PairVect(Vector v1, Vector v2) {
 		vector1 = new Vector(v1);
 		vector2 = new Vector(v2);
 	}
-
+	// Affiche les vecteurs
 	public void display() {
 		vector1.display();
 		vector2.display();
 	}
-
+	
 	public Vector getFirst() {
 		return vector1;
 	}
-	
 	public Vector getSecond() {
 		return vector2;
 	}
