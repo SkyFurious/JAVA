@@ -73,7 +73,7 @@ class Vector {
 	}
 	}
 	/**
-	 * \fn String Vector::nbVect() 
+	 * \fn int Vector::nbVect() 
 	 * \brief Total du nbVecteur
 	 * \return retourne le total de vector
 	 */
