@@ -4,6 +4,7 @@ MODELISATION OBJET JAVA (License 2 CERI Avignon)
 
 - TD2
 
+  - Adding pairVect (14.02.2014)
   - Adding vector (14.02.2014)
 
 =========================================================================
