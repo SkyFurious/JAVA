@@ -7,6 +7,11 @@
  * javac vector.java
  * java vector
  */
+
+/**
+ * \class Vector
+ * \brief Classe pour calculs élementaire sur un vecteur
+ */
 class Vector {
 	int x, y, z;
 	static int total = 0;
