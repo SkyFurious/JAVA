@@ -4,7 +4,7 @@ MODELISATION OBJET JAVA (License 2 CERI Avignon)
 
 - TD2
 
-  - Comming Soon
+  - Adding vector (14.02.2014)
 
 =========================================================================
 
