@@ -1,5 +1,4 @@
-##MODELISATION OBJET JAVA (License 2 CERI Avignon)
-
+MODELISATION OBJET JAVA (License 2 CERI Avignon)
 =========================================================================
 
 - TD2
