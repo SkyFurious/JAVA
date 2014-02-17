@@ -1,36 +1,36 @@
 /**
  * \file resolutionEquation.java
- * \brief Programme pour résoudre une équation
+ * \brief Programme pour rï¿½soudre une ï¿½quation
  * \author Dean Winchester
  * \version 0.1
- * \date 13 Février 2014
+ * \date 13 Fï¿½vrier 2014
  * javac resolutionEquation.java
  * java resolutionEquation
  */
 import java.util.*;
 /**
  * \class resolutionEquation
- * \brief resous une équation de type ax²+bx+c
+ * \brief resous une ï¿½quation de type axï¿½+bx+c
  * 
- * resolutionEquation est une petite classe pour resoudre une équation de type ax²+bx+c
+ * resolutionEquation est une petite classe pour resoudre une ï¿½quation de type axï¿½+bx+c
  */
 class resolutionEquation {
 	
 	public static void main(String args[]) throws Exception {
 		double root, root1, root2;
-		System.out.println("Equation est ax²+bx+c");
+		System.out.println("Equation est axï¿½+bx+c");
 		Integer a = new Integer(args[0]);
 		Integer b = new Integer(args[1]);
 		Integer c = new Integer(args[2]);
 		int d = (b * b) + 4 * a * c;
 		if (d > 0) {
-			root1 = ((-b) + Math.sqrt(d)) / 2 * a;
-			root2 = ((-b) - Math.sqrt(d)) / 2 * a;
-			System.out.println("Deux Solutions a l'équation :");
+			root1 = ((-b) + Math.sqrt(d)) / (2 * a);
+			root2 = ((-b) - Math.sqrt(d)) / (2 * a);
+			System.out.println("Deux Solutions a l'ï¿½quation :");
 			System.out.println(root1 + " , " + root2);
 		} else if (d == 0) {
 			root = (-b) / (2 * a);
-			System.out.println("Une Seul Solution a l'équation :");
+			System.out.println("Une Seul Solution a l'ï¿½quation :");
 			System.out.println(root);
 		} else if (d < 0) {
 			System.out.println("La solution est imaginaire");
