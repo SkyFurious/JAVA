@@ -1,23 +1,23 @@
 /**
  * \file vector.java
- * \brief Programme pour faire des opérations sur des vecteurs de 3 composantes
+ * \brief Programme pour faire des opÃ©rations sur des vecteurs de 3 composantes
  * \author Dean Winchester
  * \version 0.1
- * \date 14 Février 2014
+ * \date 14 FÃ©vrier 2014
  * javac vector.java
  * java vector
  */
 
 /**
  * \class Vector
- * \brief Classe pour calculs élementaire sur un vecteur
+ * \brief Classe pour calculs Ã©lementaire sur un vecteur
  */
 class Vector {
 	int x, y, z;
 	static int total = 0;
 	/**
 	 * \fn Vector::Vector()
-	 * \brief Constructeur du vector, initialise les 3 composantes à 0
+	 * \brief Constructeur du vector, initialise les 3 composantes Ã© 0
 	 */
 	public Vector() {
 		total++;
@@ -25,7 +25,7 @@ class Vector {
 	}
 	/**
 	 * \fn Vector::Vector(int val)
-	 * \brief Initialise les 3 composantes à la meme valeurs
+	 * \brief Initialise les 3 composantes Ã  la meme valeurs
 	 */
 	public Vector(int val) {
 		total++;
@@ -48,16 +48,14 @@ class Vector {
 	public void display() {
 		System.out.println(x + "  " + y + "  " + z);
 	}
-	}
 	/**
 	 * \fn void Vector::multiply(int i) 
 	 * \brief Multiplier les composantes par une valeur fourni en argument
 	 */
 	public void multiply(int i) {
-		x *= i; // Equivaut à x = x*i;
+		x *= i; // Equivaut Ã  x = x*i;
 		y *= i;
 		z *= i;
-	}
 	}
 	/**
 	 * \fn int Vector::multiply(Vector v) 
@@ -67,7 +65,6 @@ class Vector {
 	public int multiply(Vector v) {
 		return (int) (x * v.x + y * v.y + z * v.z);
 	}
-	}
 	/**
 	 * \fn Vector Vector::sum(Vector v) 
 	 * \brief Fait la somme de deux vector
@@ -75,7 +72,6 @@ class Vector {
 	 */
 	public Vector sum(Vector v) {
 		return new Vector(x + v.x, y + v.y, z + v.z);
-	}
 	}
 	/**
 	 * \fn int Vector::nbVect() 
