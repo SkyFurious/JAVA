@@ -1,16 +1,21 @@
 /**
- * Titre :        Exercise 35
- * Description :  Annuaire téléphonique
- * Copyright :    Copyright (c) 2002
- * Société :
- * @author SN
- * @version 1.0
- */
+* \file Subscriber.java
+* \brief Programme qui contient le nom et le numÃ©ro d'un abonnÃ©
+* \author Dean Winchester
+* \version 0.1
+* \date 02 Mars 2014
+* javac DoubleArray.java
+* java DoubleArray
+*/
 
+/**
+* \class Subscriber
+* \brief qui contient le nom et le numÃ©ro d'un abonnÃ©
+*/
 public class Subscriber {
-
+	// DÃ©claration 
 	private String name,number;
-
+	
         public Subscriber(String name,String number)
 	{
                 this.name=name;
