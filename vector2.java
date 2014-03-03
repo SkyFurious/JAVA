@@ -1,6 +1,6 @@
 /**
 * \file vector.java
-* \brief Programme pour faire des opérations sur des vecteurs de 3 composantes
+* \brief Programme pour échange les vecteurs via un vecteur temporaire
 * \author Dean Winchester
 * \version 0.1
 * \date 03 Mars 2014
