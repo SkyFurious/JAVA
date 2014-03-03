@@ -17,7 +17,7 @@ class Vector {
 	static int total = 0;
 	/**
 	 * \fn Vector::Vector()
-	 * \brief Constructeur du vector, initialise les 3 composantes é 0
+	 * \brief Constructeur du vector, initialise les 3 composantes à 0
 	 */
 	public Vector() {
 		total++;
@@ -89,6 +89,8 @@ class Vector {
 	public String toString() {
 		return "x : " + x + " , y : " + y + " , z : " + z;
 	}
+}
+public class vector{
 		public static void main(String[] args) {
 		Vector v = new Vector(1, 2, 3);
 		v.multiply(8);
