@@ -19,7 +19,7 @@ public class exer34 {
 		double[][] d={ {1,2},{1,2,3},{1},{1,2,3,4,5}};
 		double[] sLin=DoubleArray.lineSum(d);
 		System.out.println("d = "); DoubleArray.display(d);
-		System.out.print("Sum of the lines of d = ");
+		System.out.print("Somme des lignes de d = ");
 		for (int i=0;i<sLin.length;i++)
 			System.out.print(sLin[i]+" ");
 
