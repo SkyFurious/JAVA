@@ -1,12 +1,12 @@
 /**
- * Titre :        Exercise 34
- * Description :  Tableaux de tableaux
- * Copyright :    Copyright (c) 2002
- * Société :
- * @author SN
- * @version 1.0
- */
-
+* \file exer34.java
+* \brief Programme pour gÃ©rer des tableaux de tableaux de doubles.
+* \author Dean Winchester
+* \version 0.1
+* \date 02 Mars 2014
+* javac exer34.java
+* java exer34
+*/
 public class exer34 {
         public static void main(String[] args) {
 		double[][] a={ {1,2,3},{4,5,6}};
