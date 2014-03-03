@@ -1,24 +1,36 @@
 /**
- * Titre :        Exercise 35
- * Description :  Annuaire t�l�phonique
- * Copyright :    Copyright (c) 2002
- * Soci�t� :
- * @author SN
- * @version 1.0
- */
+* \file Index.java
+* \brief Programme pour gérer des numéros de téléphone
+* \author Dean Winchester
+* \version 0.1
+* \date 02 Mars 2014
+* javac Index.java
+* java Index
+*/
 
+/**
+* \class Index
+* \brief Classe pour gérer des numéros de téléphone
+*/
 public class Index {
 
 	private int nMax,nSubsc;
 	private Subscriber[] ind;
-
+	/**
+	* \fn Index()
+	* \brief Ajouter un nouvel abonné
+	*/
         public Index(int nMax)
 	{
 		this.nMax=nMax;
 		ind=new Subscriber[nMax];
 		nSubsc=0;
         }
-
+	/**
+	* \fn Index::addSubscriber()
+	* \brief Ajouter un nouvel abonné
+	* \return Faux si l'insertion échoue, vrai sinon
+	*/
 	public boolean addSubscriber(Subscriber a)
 	{
 		if (nSubsc>=nMax)
@@ -27,17 +39,29 @@ public class Index {
 		nSubsc++;
 		return true;
 	}
-
+	/**
+	* \fn Index::getNbSubscribers()
+	* \brief getteur de NbSubscribers
+	* \return le nombre de Subscribers
+	*/
 	public int getNbSubscribers()
 	{
 		return nSubsc;
 	}
-
+	/**
+	* \fn Index::getNbSubscribers()
+	* \brief getteur de NbSubscribers
+	* \return le nombre de Subscribers
+	*/
 	public Subscriber getSubscriber(int i)
 	{
 		return ind[i];
 	}
-
+	/**
+	* \fn Index::getNumber()
+	* \brief Gere le Numéro via le name
+	* \return le numéro ou null si il n'existe pas
+	*/
 	public String getNumber(String name)
 	{
 		for (int i=0; i<nSubsc; i++)
@@ -45,7 +69,11 @@ public class Index {
 				return ind[i].getNumber();
 			return null;
 	}
-
+	/**
+	* \fn Index::getSortedSubscribers()
+	* \brief S'occupe d'afficher un tableau d'abonnée trié par ordre alphabétique
+	* \return le tableau d'abonné trié par ordre aplhabétique
+	*/
 	public Subscriber[] getSortedSubscribers()
 	{
 		Subscriber[] sortedIndex=new Subscriber[nSubsc];
