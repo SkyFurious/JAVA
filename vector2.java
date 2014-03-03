@@ -3,9 +3,9 @@
 * \brief Programme pour faire des opérations sur des vecteurs de 3 composantes
 * \author Dean Winchester
 * \version 0.1
-* \date 14 Février 2014
-* javac vector.java
-* java vector
+* \date 03 Mars 2014
+* javac vector2.java
+* java vector2
 */
 
 /**
