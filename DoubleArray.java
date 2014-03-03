@@ -10,7 +10,7 @@
 
 /**
 * \class DoubleArray
-* \brief Classe gerer des tableaux de doubles
+* \brief Classe pour gerer des tableaux de doubles
 */
 public class DoubleArray {
 	/**
