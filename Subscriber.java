@@ -4,8 +4,8 @@
 * \author Dean Winchester
 * \version 0.1
 * \date 02 Mars 2014
-* javac DoubleArray.java
-* java DoubleArray
+* javac Subscriber.java
+* java Subscriber
 */
 
 /**
